@@ -1,0 +1,80 @@
+.friday-recommendations {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff8e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.friday-recommendations h3 {
+  color: #f57c00;
+  margin-top: 0;
+  border-bottom: 2px solid #ffd180;
+  padding-bottom: 10px;
+}
+
+.friday-card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #ffc107;
+}
+
+.friday-card h4 {
+  margin-top: 0;
+  color: #f57c00;
+}
+
+.recommendations-list {
+  margin-bottom: 15px;
+}
+
+.recommendation-item {
+  display: flex;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ffe0b2;
+}
+
+.recommendation-item:last-child {
+  border-bottom: none;
+}
+
+.recommendation-time {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.time-icon {
+  margin-right: 8px;
+}
+
+.recommendation-reason {
+  flex: 1;
+  color: #5d4037;
+}
+
+.additional-info {
+  background-color: #fffde7;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.additional-info h5 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #795548;
+}
+
+.additional-info ul {
+  margin-bottom: 5px;
+}
+
+.additional-info li {
+  margin-bottom: 5px;
+  color: #5d4037;
+}

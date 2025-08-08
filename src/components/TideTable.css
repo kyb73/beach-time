@@ -1,0 +1,56 @@
+.tide-table-container {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f5f9fc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.day-group {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.friday-highlight {
+  background-color: #fff8e6;
+  border-left: 4px solid #ffc107;
+}
+
+.friday-label {
+  color: #ff9800;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.tide-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tide-table th {
+  padding: 8px;
+  background-color: #f0f0f0;
+  text-align: left;
+  font-weight: 600;
+}
+
+.tide-table td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.high-tide {
+  color: #cc0000;
+}
+
+.low-tide {
+  color: #00a651;
+}
+
+.tide-table tr:last-child td {
+  border-bottom: none;
+}

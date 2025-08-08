@@ -1,0 +1,79 @@
+.safety-warning {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.safety-warning h3 {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.warning-icon {
+  margin-right: 10px;
+}
+
+.safety-warning.danger {
+  background-color: #fff3f3;
+  border-left: 5px solid #f44336;
+}
+
+.safety-warning.safe {
+  background-color: #f1f8e9;
+  border-left: 5px solid #4caf50;
+}
+
+.status-message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.danger-text {
+  color: #d32f2f;
+  font-size: 1.1rem;
+}
+
+.safe-text {
+  color: #2e7d32;
+  font-size: 1.1rem;
+}
+
+.future-warning {
+  background-color: #fff8e1;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border-left: 4px solid #ffc107;
+}
+
+.future-warning h4 {
+  margin-top: 0;
+  color: #f57c00;
+}
+
+.safety-tips {
+  background-color: #e3f2fd;
+  padding: 15px;
+  border-radius: 4px;
+  border-left: 4px solid #2196f3;
+}
+
+.safety-tips h4 {
+  margin-top: 0;
+  color: #1976d2;
+}
+
+.safety-tips ul {
+  margin-bottom: 0;
+}
+
+.safety-tips li {
+  margin-bottom: 5px;
+}
+
+.safety-tips li:last-child {
+  margin-bottom: 0;
+}
